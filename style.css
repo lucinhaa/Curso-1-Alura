@@ -1,5 +1,11 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
 body {
-    background-color: rgb(65, 62, 112);
+    background-color: url(bg-desktop.webp);
     font-family: Bai Jamjuree;
 }
    
@@ -18,10 +24,12 @@ body {
 .cartao_conteudo {
     text-align: center;
     height: 100%;
+    background-color: var(--card-front-color);
 }
 
 .cartao_conteudo h3 {
-    background-color: tomato;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
