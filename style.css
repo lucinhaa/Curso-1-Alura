@@ -38,6 +38,11 @@ body {
     font-size: 1vw;
 }
 
+.cartao_conteudo_pergunta p{
+    color: var(--card-back-color);
+    font-weight: 700;
+}
+
 footer {
     background-color: black;
     color: white;
